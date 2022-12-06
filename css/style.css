@@ -100,16 +100,27 @@ p {
 
 #surfReport{
   grid-area: surfReport ;
+  border: 5px solid rgb(24, 166, 231) ;
+  background-image: url("../images/02-portfolio-4.jpg");
+  
 }
 #ledWall{
   grid-area: ledWall ;
+  border: 5px solid rgb(24, 166, 231) ;
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 #calculator{
   grid-area: calculator;
+  border: 5px solid rgb(24, 166, 231) ;
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 #pastelPuzzels{
   grid-area: pastelPuzzels;
+  border: 5px solid rgb(24, 166, 231) ;
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 #runBuddy{
   grid-area: runBuddy;
+  border: 5px solid rgb(24, 166, 231) ;
+  background-image: url("../images/02-run-buddy.jpg");
 }
