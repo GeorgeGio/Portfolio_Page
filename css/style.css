@@ -93,7 +93,23 @@ p {
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  ".."
-  ".."
-  "..";
+  "surfReport surfReport"
+  "ledWall calculator"
+  "pastelPuzzels runBuddy";
+}
+
+#surfReport{
+  grid-area: surfReport ;
+}
+#ledWall{
+  grid-area: ledWall ;
+}
+#calculator{
+  grid-area: calculator;
+}
+#pastelPuzzels{
+  grid-area: pastelPuzzels;
+}
+#runBuddy{
+  grid-area: runBuddy;
 }
