@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: rgb(61, 56, 49);
-  margin: 0;
+  background-color: rgba(236, 236, 236, 0.336);
+  margin-bottom: 10px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
@@ -18,7 +18,7 @@ section{
 header{
   padding: 20px;
   text-align: left;
-  background-color: #196bb8;
+  background-color: #505152;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -102,25 +102,48 @@ p {
   grid-area: surfReport ;
   border: 5px solid rgb(24, 166, 231) ;
   background-image: url("../images/02-portfolio-4.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
   
 }
 #ledWall{
   grid-area: ledWall ;
   border: 5px solid rgb(24, 166, 231) ;
   background-image: url("../images/02-portfolio-1.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #calculator{
   grid-area: calculator;
   border: 5px solid rgb(24, 166, 231) ;
   background-image: url("../images/02-portfolio-2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #pastelPuzzels{
   grid-area: pastelPuzzels;
   border: 5px solid rgb(24, 166, 231) ;
   background-image: url("../images/02-portfolio-3.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #runBuddy{
   grid-area: runBuddy;
   border: 5px solid rgb(24, 166, 231) ;
   background-image: url("../images/02-run-buddy.jpg");
+}
+.heading {
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  border-bottom: 5px solid #FF6200;
 }
