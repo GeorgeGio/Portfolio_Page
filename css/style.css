@@ -12,7 +12,7 @@ body {
   
 }
 section{
-  border: 1px solid red ;
+  border: 1px solid rgb(136, 130, 130) ;
 }
 
 header{
@@ -29,7 +29,11 @@ nav a {
   /* padding: 14px 20px; */
   text-decoration: none;
   text-align: center;
-  
+  font-size: 25px;
+  padding-left: 20px;
+}
+nav a:hover{
+  opacity: 0.5;
 }
 
 .container{
@@ -42,6 +46,7 @@ nav a {
   "about ."
   "work ."
   "contact .";
+  gap: 20px;
 }
 h1,
 h2,
@@ -72,11 +77,20 @@ p {
   position: absolute;
   background: transparent;
   bottom: 0;
-  color: red;
+  color: gold;
   font-size: 60px;
   right: 0;
   
 }
+
+/* .nior{
+  position: absolute;
+  background: transparent;
+  bottom: 0;
+  color: gold;
+  font-size: 60px;
+  right: 0;
+} */
 #work{
   grid-area: work;
 
@@ -96,21 +110,25 @@ p {
   "surfReport surfReport"
   "ledWall calculator"
   "pastelPuzzels runBuddy";
+  gap: 15px;
 }
 
+
+#surfReport:hover,
+#ledWall:hover,
+#calculator:hover,
+#pastelPuzzels:hover,
+#runBuddy:hover {
+opacity: 0.3;
+}
 #surfReport{
   grid-area: surfReport ;
-  border: 5px solid rgb(24, 166, 231) ;
+  /* border: 5px solid rgb(247, 224, 24) ; */
   background-image: url("../images/02-portfolio-4.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* position: relative; */
-  
 }
 #ledWall{
   grid-area: ledWall ;
-  border: 5px solid rgb(24, 166, 231) ;
+  /* border: 5px solid rgb(24, 166, 231) ; */
   background-image: url("../images/02-portfolio-1.jpg");
   background-position: top;
   background-repeat: no-repeat;
@@ -118,26 +136,26 @@ p {
 }
 #calculator{
   grid-area: calculator;
-  border: 5px solid rgb(24, 166, 231) ;
+  /* border: 5px solid rgb(24, 166, 231) ; */
   background-image: url("../images/02-portfolio-2.jpg");
   background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 #pastelPuzzels{
   grid-area: pastelPuzzels;
-  border: 5px solid rgb(24, 166, 231) ;
+  /* border: 5px solid rgb(24, 166, 231) ; */
   background-image: url("../images/02-portfolio-3.jpg");
   background-position: top;
-  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 #runBuddy{
   grid-area: runBuddy;
-  border: 5px solid rgb(24, 166, 231) ;
+  /* border: 5px solid rgb(24, 166, 231) ; */
   background-image: url("../images/02-run-buddy.jpg");
+  background-size: cover;
+  
 }
 .heading {
   background-color: rgba(0,0,0,0.7);
@@ -146,4 +164,15 @@ p {
   color: white;
   font-size: 18px;
   border-bottom: 5px solid #FF6200;
+}
+
+.categoryGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+
 }

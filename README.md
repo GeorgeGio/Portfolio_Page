@@ -1,18 +1,4 @@
-## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 # Profolio - George Oustapasidis  
 
@@ -23,27 +9,28 @@ In this project, our objective is to create personal portfolio that will showcas
 
  To do this we created a page using HTML and CSS which also shows our knowledge and undrestanding of our abilities as a web developer. 
 
-Profesionals consider the importance of such process as it ensures that people with disabilities can access the given site, through the use of tech applications such as - screen readers.
+Profesionals within the tech industry consider the importance of having such live Portfolio as it gives a insight in a candidates ability. 
 
 <br>
 <br>
 
-## Visual Representation of Horiseon webpage
-![Current Page of Horiseon](./assets/images/georgegio.github.io_horiseon-refactoring_.png)
+## Demo Representation of ideal Portfolio webpage
+![Screenshot of Portfolio](./images/challenge-2-demo-screenshot.jpg)
 
 
 
 ## Installation
-You download the file in your local machine and unzip the folder containing the original code in its un-sematic form. 
-https://static.fullstack-bootcamp.com/uk-16/activities/01-html-git-github-module/04-code-refactor-lesson/challenge.zip  
-
+You can download the file in your local machine and unzip the folder containing a starter base html and css to help get you started
+  
+https://static.fullstack-bootcamp.com/uk-16/activities/02-css-module/04-responsive-portfolio-lesson/challenge.zip
 <br>
 <br>
 
 
 
-## Deployed of Horiseon webpage
-https://georgegio.github.io/horiseon-refactoring/  
+## Deployment of Portfolio webpage
+https://georgegio.github.io/Portfolio_Page/  
+
 
 
 ## License
