@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(53, 53, 53, 0.336);
+  background-color: rgba(0, 0, 0, 0.76);
   margin-bottom: 10px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;  
 }
 section{
-  border: 1px solid rgb(136, 130, 130) ;
+  border: 1px solid rgb(0, 0, 0) ;
 }
 header{
   padding: 20px;
@@ -184,7 +184,7 @@ opacity: 0.3;
 
 
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   p {
     font-size: 10px;
   }
@@ -192,7 +192,7 @@ opacity: 0.3;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color:#397ef6b0;
+    background-color:#f63939b0;
   }
 
   header > h1 {
@@ -204,29 +204,16 @@ opacity: 0.3;
     gap: 20px;
   } 
 
-  .hero-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-  }
 
-  .hero-banner h2 {
-    margin: 0;
-    padding: 0 5px 0 5px;
+  #workGrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "surfReport "
+    "ledWall"
+    "pastelPuzzels"
+    "calculator";
+    gap: 15px;
   }
-
-  .page-section h2 {
-    position: relative;
-    top: -30px;
-    font-size: 30px;
-  }
-
-  .work-grid {
-    border-color: var(--small-screen-color);
-  }
-
-  .work-grid h4 {
-    background-color: var(--small-screen-color);
-  }
-} */
+}
