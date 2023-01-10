@@ -18,7 +18,7 @@ Profesionals within the tech industry consider the importance of having such liv
 ![Screenshot of Portfolio](./images/challenge-2-demo-screenshot.jpg)
 
 ## Actual Representation of Portfolio page 
-![Current Page of Portfolio](../Responsive-Page/images/Responsive-Page_index.html.png)
+![Current Page of Portfolio](./images/Responsive-Page_index.html.png)
 
 
 ## Installation
